@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React para Iniciantes</title>
+
+    <!-- Carrega o React, React Dom e Babel -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+  </head>
+
+  <body>
+
+    <script type="text/babel">
+      const Produtos = () => {
+        function handleClick(event) {
+          alert('Comprou: ' + event.target.innerText);
+        }
+
+        return (
+          <div>
+            <button onClick={handleClick}>Camisa</button>
+            <button onClick={handleClick}>Bermuda</button>
+          </div>
+        );
+      };
+      // O "onClick"  dispensa o uso de querySelector, por exemplo
+
+      const Button = () => {
+        function handleClick(event) {
+          console.log(event.target.innerHTML);
+        }
+        return <button onClick={handleClick}>Comprar</button>;
+      }
+
+    </script>
+  </body>
+</html>
