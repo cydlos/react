@@ -1,5 +1,4 @@
 import React from "react";
-import App from "./App";
 import Titulo from "./Titulo";
 import Produto from "./Produto";
 
@@ -13,7 +12,7 @@ const Produtos = ({ nome, ...props }) => {
     <section>
       <Titulo texto="Produtos" />
       {produtos.map((produto) => (
-        <Produto key={produto.nome} {...props} />
+        <Produto key={nome} {...props} />
       ))}
     </section>
   );

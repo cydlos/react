@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./Header";
+import Home from "./Home";
+import Produtos from "./Produtos";
 
 const App = () => {
   const { pathname } = window.location;
@@ -14,7 +16,7 @@ const App = () => {
   return (
     <>
       <Header />
-    <Component />
+      <Component />
     </>
   );
 };

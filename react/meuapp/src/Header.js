@@ -1,6 +1,4 @@
 import React from 'react';
-import App from './App';
-import Produtos from './Produtos';
 
 export const Header = () => {
   return (
