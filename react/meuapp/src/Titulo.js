@@ -1,7 +1,6 @@
 // Retorna o estilo em forma de uma constante
 
 import React from 'react';
-import App from './App';
 
 const Titulo = (props) => {
   return (

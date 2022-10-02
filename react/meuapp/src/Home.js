@@ -1,4 +1,4 @@
-import App from "./App";
+import React from "react";
 import Titulo from "./Titulo";
 
 const Home = () => {
@@ -9,3 +9,5 @@ const Home = () => {
     </div>
   );
 }
+
+export default Home;

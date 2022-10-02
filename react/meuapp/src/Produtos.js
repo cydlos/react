@@ -2,20 +2,20 @@ import React from "react";
 import Titulo from "./Titulo";
 import Produto from "./Produto";
 
-const produtos = [
+const Produtos = ( ) => {
+  const produtos = [
   { nome: 'Notebook', propriedades: ['16gb ram', '512gb'] },
   { nome: 'Smartphone', propriedades: ['2gb ram', '128gb'] },
 ];
 
-const Produtos = ({ nome, ...props }) => {
-  return (
+return (
     <section>
       <Titulo texto="Produtos" />
       {produtos.map((produto) => (
-        <Produto key={nome} {...props} />
+        <Produto key={produto.nome} {...produto} />
       ))}
     </section>
-  );
-}
-
+    );
+};
+// O {...produto} se relaciona às propriedades de Produto.js
 export default Produtos;
