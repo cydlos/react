@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Header from './Header';
-// import Avatar from './Avatar';
+import Card from './Card';
 import Footer from './Footer';
 import Carrousel from './Carrousel';
 
@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Header />
       <Carrousel />
-      {/* <Avatar /> */}
+      <Card />
       <Footer />
     </>
   );
