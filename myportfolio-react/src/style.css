@@ -1,0 +1,13 @@
+@import "card.css";
+@import "button.css";
+@import "carrousel.css";
+@import "footer.css";
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+
+:root:root body {
+  background-color: #112232;
+}
