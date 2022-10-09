@@ -2,6 +2,7 @@
 @import "button.css";
 @import "carrousel.css";
 @import "footer.css";
+@import "index.css";
 
 p {
   font-family: 'Roboto Condensed', sans-serif;
@@ -11,3 +12,5 @@ p {
 :root:root body {
   background-color: #112232;
 }
+
+/* ! overlaps with the other css */

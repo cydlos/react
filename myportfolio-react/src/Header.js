@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import 'src/stylesheets/style.css'
 import Box from '@material-ui/core/Box';
 
 const Header = () => {
@@ -13,3 +13,4 @@ const Header = () => {
 }
 
 export default Header;
+
